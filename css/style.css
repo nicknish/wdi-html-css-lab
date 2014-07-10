@@ -1,0 +1,112 @@
+/* Global 
+======================= */
+
+*:before, *:after, * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html { font-size: 110%; }
+body {}
+.container {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 54rem;
+}
+a { text-decoration: none; }
+
+/* Header 
+=================== */
+header { 
+	background-color: black; 
+	min-height: 5rem; 
+	padding-top: 1.8rem;
+}
+header a { color: gray; padding: 1.5rem 1rem 1.5rem 1rem;}
+header a:hover { color: ; }
+
+/* Logo 
+==================== */
+.logo-social-row { margin: 1.5rem 0; }
+.logo { float:left;}
+
+/* Social 
+==================== */
+.social { float:right;}
+#twitter,
+#facebook,
+#rss,
+#linkedin { 
+	width: 48px; 
+	height: 48px; 
+	display: inline-block;
+}
+#twitter { background: url('../images/twitter-grey.png'); }
+#twitter:hover { background: url('../images/twitter.png'); }
+#facebook { background: url('../images/facebook-grey.png'); }
+#facebook:hover { background: url('../images/facebook.png'); }
+#rss { background: url('../images/rss-grey.png'); }
+#rss:hover { background: url('../images/rss.png'); }
+#linkedin { background: url('../images/linkedin-grey.png'); }
+#linkedin:hover { background: url('../images/linkedin.png'); }
+
+/* Clearfix 
+==================== */
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+} .clearfix:after { clear:both; }
+
+/* Banner Image 
+===================== */
+.banner-image {
+	box-shadow: 5px 10px 30px 5px;
+}
+
+/* Quote Blurb
+====================== */
+.quote { 
+	margin-top: 3rem; 
+	padding: 1.5rem; 
+	box-shadow: inset 0 0 2px #000000; 
+}
+.quote p { float: left; width: 75%;}
+.quote img { float: right; }
+
+/* Columns 
+======================= */
+.columns { padding-bottom: 2rem; }
+.columns p { font-size: .8rem; }
+.columns a { color: #327bad; }
+.column1, .column2, .column3 { display: inline-block; width: 32%; }
+
+/* Footer 
+======================= */
+footer { 
+	background-color: black; 
+	color: gray; 
+	padding: 2.5rem 0 2rem 0;
+}
+footer h3 { border-bottom: 1px solid gray; }
+
+.blog-roll, 
+.text-widget, 
+.meta-widget { 
+	float:left; 
+	padding: 0 .5rem 0 .5rem;
+}
+.blog-roll, 
+.meta-widget { width: 20%; }
+.text-widget { width: 60%; }
+
+.blog-roll span,
+ .text-widget span,
+ .meta-widget span { 
+ 	display: block; 
+ 	border-bottom: 1px solid gray;
+ 	padding: .5rem 0;
+}
+.credits { clear: both; padding-top: 2rem; }
+#copyright { float:left; }
+#good-friends-credit { float: right;}
